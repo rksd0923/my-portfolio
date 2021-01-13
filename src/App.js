@@ -2,6 +2,7 @@ import './App.css';
 import MyNavbar from './components/MyNavbar'
 import MyCarousel from './components/MyCarousel'
 import TitleMessage from './components/TitleMessage'
+import About from './pages/About'
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <MyNavbar />
       <MyCarousel />
       <TitleMessage />
+      <About />
     </div>
   );
 }
