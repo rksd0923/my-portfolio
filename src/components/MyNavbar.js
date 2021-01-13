@@ -6,7 +6,10 @@ import './MyNavbar.css'
 const MyNavbar = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar fixed="top"
+                variant="dark"
+                expand="md"
+                className="animate-navbar nav-theme justify-content-between">
                 <Navbar.Brand href="#home">Ruben Rivera</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
