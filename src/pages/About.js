@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -22,41 +22,42 @@ const About = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <Row className=" align-items-start p-2 my-details rounded">
-                                <strong>&nbsp;My name is Ruben Rivera</strong>
-                                <p>Hello everyone! I'm a retired Marine pursuing my goal as a software Engineer I currently live in
-                               Virginia, just outside washington DC. I have always been curious about designing websites; thus I decided to become a Web Developer.</p><br />
+                                <strong>My Name is Ruben Rivera</strong>
 
-                                <p>During my search I discovered Software Development. I enrolled in a coding boot camp out of
+                                <p className="my-details">Hello everyone! I'm a retired Marine pursuing my goal as a software Engineer I currently live in
+                               Virginia, just outside washington DC. I have always been curious about designing websites; thus I decided to become a Web Developer.</p>
+
+                                <p className="my-details">During my search I discovered Software Development. I enrolled in a coding boot camp out of
                                 Washington DC with General Assembly and it was the best decision I ever made. I can confidently
                                 say I can build full stack applications using my own API and can either use Python Django or
                                 Express MongoDB to build a backend. I am very excited about creating more projects and continue learning along the way.</p>
                                 <Col className="d-flex justify-content-center flex-wrap">
                                     <div>
                                         <a href="mailto:ruben.e.rivera@outlook.com">
-                                            <Button className="m-2" variant="outline-primary">
-                                                Email
-                        </Button>
+                                            <Button className="m-2" variant="outline-info">
+                                                <h4 className="about-icons">Email</h4>
+                                            </Button>
                                         </a>
                                     </div>
                                     <div>
                                         <a href={Resume} target="_blank" rel="noopener noreferrer">
-                                            <Button className="m-2" variant="outline-success">
-                                                My Resume
-                        </Button>
+                                            <Button className="m-2" variant="outline-info">
+                                                <h4 className="about-icons">My Resume</h4>
+                                            </Button>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="https://github.com/rksd0923" target="_blank" rel="noopener noreferrer">
-                                            <Button className="m-2" variant="outline-dark">
-                                                GitHub
-                        </Button>
+                                            <Button className="m-2" variant="outline-info">
+                                                <h4 className="about-icons">Github</h4>
+                                            </Button>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="https://www.linkedin.com/in/ruben-rivera?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BW22%2B7NMMTreF9skkl4hoNg%3D%3D" target="_blank" rel="noopener noreferrer">
                                             <Button className="m-2" variant="outline-info">
-                                                LinkedIn
-                        </Button>
+                                                <h4 className="about-icons">Linkedin</h4>
+                                            </Button>
                                         </a>
                                     </div>
                                 </Col>

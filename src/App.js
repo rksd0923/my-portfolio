@@ -3,7 +3,7 @@ import MyNavbar from './components/MyNavbar'
 import MyCarousel from './components/MyCarousel'
 import TitleMessage from './components/TitleMessage'
 import About from './pages/About'
-import Skills from './pages/Skills';
+import MySkills from './pages/MySkills';
 import Projects from './components/Projects'
 
 
@@ -14,8 +14,10 @@ const App = () => {
       <MyCarousel />
       <TitleMessage />
       <About />
-      <Skills />
       <Projects />
+      <MySkills />
+
+
 
     </div>
   );
