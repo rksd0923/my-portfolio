@@ -9,37 +9,40 @@ import ScrollDown from './scrolldown'
 
 const MyCarousel = () => {
     return (
-        <div className="home">
-            <Carousel controls={false} indicators interval={3500} pause={false}>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 custom-img"
-                        src={Slide1}
-                        alt="First slide"
-                    />
 
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 custom-img"
-                        src={Slide2}
-                        alt="Second slide"
-                    />
+        <div id="home">
+            <div className="home">
+                <Carousel controls={false} indicators interval={3500} pause={false}>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 custom-img"
+                            src={Slide1}
+                            alt="First slide"
+                        />
 
-
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 custom-img"
-                        src={Slide3}
-                        alt="Third slide"
-                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 custom-img"
+                            src={Slide2}
+                            alt="Second slide"
+                        />
 
 
-                </Carousel.Item>
-            </Carousel>
-            <ScrollDown />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 custom-img"
+                            src={Slide3}
+                            alt="Third slide"
+                        />
 
+
+                    </Carousel.Item>
+                </Carousel>
+                <ScrollDown />
+
+            </div>
         </div>
     )
 }

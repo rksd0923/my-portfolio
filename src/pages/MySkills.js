@@ -31,7 +31,7 @@ import "./MySkills.css";
 const MySkills = () => {
     return (
 
-        <div id="skills-page">
+        <div id="skills">
 
             <div className="skills-container">
                 <h1 className="text-center font-details-b pb-4">SKILLS</h1>
