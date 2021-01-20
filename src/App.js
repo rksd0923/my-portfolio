@@ -5,8 +5,10 @@ import TitleMessage from './components/TitleMessage'
 import About from './pages/About'
 import MySkills from './pages/MySkills';
 import Projects from './components/Projects'
+import Fade from "react-reveal/Fade";
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Container from "react-bootstrap/Container";
 
 const App = () => {
   return (
@@ -14,15 +16,25 @@ const App = () => {
       <MyNavbar />
       <MyCarousel />
       <TitleMessage />
-      <About />
-      <Projects />
-      <MySkills />
+      <div className="color-gradient">
 
-      <Footer />
+        <About />
 
 
+        <Projects />
 
-    </div>
+        <MySkills />
+
+        <Contact />
+
+
+
+        <Footer />
+      </div >
+
+
+
+    </div >
   );
 }
 

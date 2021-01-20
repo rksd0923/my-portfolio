@@ -1,8 +1,12 @@
 .contact-jumbotron {
-    background-image: linear-gradient(grey, white);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 0;
-  }
+  background-image: linear-gradient(#536976, #bbd2c5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 25px 50px 25px;
   
+}
+
+#contact{
+  padding-bottom: 50px;
+}
   

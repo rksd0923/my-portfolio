@@ -1,51 +1,50 @@
 .about {
-    background-image: url(../assets/anothertexture.jpg);
-    background-size: cover;
-    font-size: 1.1em;
-    margin-top: 1px;
-    padding-top: 85px;
-  }
-  
-  .profile {
-    max-width: 18em;
-  }
-  
-  .my-details {
-    background-color: transparent;
-    color:#f7fbfb;
-    
-    
-    
-  }
-
-  .rounded {
-      text-align: left;
-      font-size: 25px;
-      
-  }
-
-  .my-details{
-    text-align: justify;
-  }
-
-  .my-name{
-    text-align: left;
-  }
-
-  .about-icons{
-    color: white;
-    font-size: 17px;
-    padding-top: 3px;
-    padding-bottom: 1px;
-  }
-
-  q {
-    font-size: 30px;
-    font-style: italic;
-  }
-.thomas{
-  color: #36FCEF;
-  
-  font-size: 18px;
+  /*background-image: url(../assets/anothertexture.jpg);
+  background-size: cover;*/
+  font-size: 1.1em;
+  margin-top: 1px;
+  padding-top: 85px;
 }
+
+.profile {
+  max-width: 18em;
+}
+
+.my-details {
+  background-color: transparent;
+  color:#f7fbfb;
   
+  
+  
+}
+
+.rounded {
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+.my-details{
+  text-align: justify;
+}
+
+.my-name{
+  text-align: left;
+}
+
+.about-icons{
+  color: white;
+  font-size: 17px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+}
+
+q {
+  font-size: 30px;
+  font-style: italic;
+}
+.thomas{
+color: #36FCEF;
+
+font-size: 18px;
+}

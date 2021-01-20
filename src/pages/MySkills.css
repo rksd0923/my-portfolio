@@ -1,8 +1,8 @@
 .skills-container {
-    background-image: url(../assets/whitebackground.jpg);
+    /*background-image: url(../assets/whitebackground.jpg);*/
     padding-top: 100px;
     padding-bottom: 50px;
-    background-size: cover;
+    /*background-size: cover;*/
     
     
     
@@ -43,6 +43,11 @@ p {
 
 h3{
     margin-bottom: -20px;
+    color: #36FCEF;
+}
+
+.individual-skills {
+    color: white;
 }
 
 

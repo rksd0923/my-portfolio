@@ -34,7 +34,7 @@ const MySkills = () => {
         <div id="skills">
 
             <div className="skills-container">
-                <h1 className="text-center font-details-b pb-4">SKILLS</h1>
+                <h1 className="pt-3 text-center font-details-b pb-4">SKILLS</h1>
 
                 <Container>
 
@@ -43,7 +43,7 @@ const MySkills = () => {
 
                         <Col>
 
-                            <h3>Frontend</h3>
+                            <h3 className="skills-names">Frontend</h3>
                         </Col>
 
                     </Row>
@@ -63,51 +63,51 @@ const MySkills = () => {
                                 <Image className="image justify-content-end" alt="profile" src={L_HTML5} thumbnail fluid />
 
                             </Row>
-                            <p>HTML 5</p>
+                            <p className="individual-skills">HTML 5</p>
 
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_CSS3} thumbnail fluid />
                             </Row>
-                            <p>CSS3</p>
+                            <p className="individual-skills">CSS3</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_BOOTSTRAP} thumbnail fluid />
                             </Row>
-                            <p>Bootstrap</p>
+                            <p className="individual-skills">Bootstrap</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_PYTHON} thumbnail fluid />
                             </Row>
-                            <p>Python</p>
+                            <p className="individual-skills">Python</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_REACT} thumbnail fluid />
                             </Row>
-                            <p>React</p>
+                            <p className="individual-skills">React</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_JAVASCRIPT} thumbnail fluid />
                             </Row>
-                            <p>Javascript</p>
+                            <p className="individual-skills">Javascript</p>
                         </Col>
 
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_REACT_ROUTER} thumbnail fluid />
                             </Row>
-                            <p>React Router</p>
+                            <p className="individual-skills">React Router</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_REACT_BOOTSTRAP} thumbnail fluid />
                             </Row>
-                            <p>React Bootstrap</p>
+                            <p className="individual-skills">React Bootstrap</p>
                         </Col>
 
                     </Row>
@@ -120,7 +120,7 @@ const MySkills = () => {
 
                         <Col>
 
-                            <h3>Backend</h3>
+                            <h3 className="skills-names">Backend</h3>
                         </Col>
 
                     </Row>
@@ -135,25 +135,25 @@ const MySkills = () => {
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_NODE_JS} thumbnail fluid />
                             </Row>
-                            <p>NODE JS</p>
+                            <p className="individual-skills">NODE JS</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_EXPRESS} thumbnail fluid />
                             </Row>
-                            <p>Express</p>
+                            <p className="individual-skills">Express</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_DJANGO} thumbnail fluid />
                             </Row>
-                            <p>Django</p>
+                            <p className="individual-skills">Django</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_API} thumbnail fluid />
                             </Row>
-                            <p>Api</p>
+                            <p className="individual-skills">Api</p>
                         </Col>
 
                     </Row>
@@ -165,7 +165,7 @@ const MySkills = () => {
 
                         <Col>
 
-                            <h3>Hosting</h3>
+                            <h3 className="skills-names">Hosting</h3>
                         </Col>
 
                     </Row>
@@ -178,19 +178,19 @@ const MySkills = () => {
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_HEROKU} thumbnail fluid />
                             </Row>
-                            <p>Heroku</p>
+                            <p className="individual-skills">Heroku</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_GITHUB_PAGES} thumbnail fluid />
                             </Row>
-                            <p>Github Pages</p>
+                            <p className="individual-skills">Github Pages</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_FIREBASE} thumbnail fluid />
                             </Row>
-                            <p>Firebase</p>
+                            <p className="individual-skills">Firebase</p>
                         </Col>
 
 
@@ -203,7 +203,7 @@ const MySkills = () => {
 
                         <Col>
 
-                            <h3>Programming Languages</h3>
+                            <h3 className="skills-names">Programming Languages</h3>
                         </Col>
 
                     </Row>
@@ -218,13 +218,13 @@ const MySkills = () => {
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_JAVASCRIPT} thumbnail fluid />
                             </Row>
-                            <p>Javascript</p>
+                            <p className="individual-skills">Javascript</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_PYTHON} thumbnail fluid />
                             </Row>
-                            <p>Python</p>
+                            <p className="individual-skills">Python</p>
                         </Col>
 
                     </Row>
@@ -236,7 +236,7 @@ const MySkills = () => {
 
                         <Col>
 
-                            <h3>Databases</h3>
+                            <h3 className="skills-names">Databases</h3>
                         </Col>
 
                     </Row>
@@ -251,13 +251,13 @@ const MySkills = () => {
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_POSTGRESQL} thumbnail fluid />
                             </Row>
-                            <p>Postgres SQL</p>
+                            <p className="individual-skills">Postgres SQL</p>
                         </Col>
                         <Col>
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_MONGODB} thumbnail fluid />
                             </Row>
-                            <p>MongoDB</p>
+                            <p className="individual-skills">MongoDB</p>
                         </Col>
 
                     </Row>
@@ -269,7 +269,7 @@ const MySkills = () => {
 
                         <Col>
 
-                            <h3>Version Control</h3>
+                            <h3 className="skills-names">Version Control</h3>
                         </Col>
 
                     </Row>
@@ -285,7 +285,7 @@ const MySkills = () => {
                             <Row>
                                 <Image className="image justify-content-end" alt="profile" src={L_GIT} thumbnail fluid />
                             </Row>
-                            <p>Git</p>
+                            <p className="individual-skills">Git</p>
                         </Col>
 
                     </Row>

@@ -13,9 +13,10 @@
   }
 
   .projects-body {
-    background-image: url(../assets/projectscover.jpg);
-    background-size: cover;
+    /*background-image: url(../assets/projectscover.jpg);
+    background-size: cover;*/
     padding-top: 50px;
+  
     
   }
 
@@ -93,7 +94,7 @@
   .card-header{
     padding-top: 2px;
     padding-bottom: 2px;
-    background-color: blue;
+    background-color: #003973;
     
       }
 
@@ -201,6 +202,10 @@
         font-size: 10px;
         text-align: center;
         margin-left: -10px;
+      }
+
+      .button {
+        background-color: #003973;
       }
 
 
