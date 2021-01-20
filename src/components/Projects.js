@@ -17,7 +17,7 @@ import L_EXPRESS from "../assets/skills/express.svg";
 import L_POSTGRESQL from "../assets/skills/postgresql.svg";
 import L_MONGODB from "../assets/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
-import L_HTML5 from "../assets/skills/html-5.svg";
+import L_HTML5 from "../assets/skills/html5.png";
 import L_CSS3 from "../assets/skills/css3.svg";
 import L_BOOTSTRAP4 from "../assets/skills/bootstrap-4.svg";
 import L_DJANGO from "../assets/skills/django.svg";
@@ -51,8 +51,9 @@ const Projects = () => {
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
+                                                    <h4>Description</h4><p>This mock up was created from an Adobe X example.  Flexbox and Grid was used as well.</p>
 
-                                                    Tech Used
+                                                    <h4>Tech used</h4>
                                                     <Container className="container-icons">
 
 
@@ -93,11 +94,10 @@ const Projects = () => {
 
                                     </Accordion>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-    </Card.Text>
-                                    <Button href="https://github.com/rksd0923" target="_blank" variant="primary">See Live</Button>
-                                    <Button variant="primary">Source Code</Button>
+
+                                    </Card.Text>
+                                    <Button href="https://rksd0923.github.io/Project_1/" target="_blank" variant="primary">See Live</Button>
+                                    <Button href="https://github.com/rksd0923/Project_1" target="_blank" variant="primary">Source Code</Button>
                                 </Card.Body>
                             </Card>
                         </Row>
@@ -118,8 +118,10 @@ const Projects = () => {
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
+                                                    <h4>Description</h4><p>Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.</p>
 
-                                                    Tech Used
+                                                    <h4>Tech used</h4>
                                                     <Container className="container-icons">
 
                                                         <Row className="justify-content-center icons">
@@ -172,11 +174,10 @@ const Projects = () => {
 
                                     </Accordion>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-    </Card.Text>
-                                    <Button href="https://github.com/rksd0923" target="_blank" variant="primary">See Live</Button>
-                                    <Button variant="primary">Source Code</Button>
+
+                                    </Card.Text>
+                                    <Button href="https://rksd0923.github.io/project-3/" target="_blank" variant="primary">See Live</Button>
+                                    <Button href="https://github.com/rksd0923/project-3" target="_blank" variant="primary">Source Code</Button>
 
                                 </Card.Body>
                             </Card>
@@ -198,8 +199,10 @@ const Projects = () => {
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
+                                                    <h4>Description</h4><p>Game where users can test their knowledge on countries capitals.
+                                                        It keeps a score and wil give you a final score when the game is finished.</p>
 
-                                                    Tech Used
+                                                    <h4>Tech used</h4>
                                                     <Container>
 
                                                         <Row>
@@ -244,11 +247,10 @@ const Projects = () => {
 
                                     </Accordion>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-    </Card.Text>
-                                    <Button href="https://github.com/rksd0923" target="_blank" variant="primary">See Live</Button>
-                                    <Button variant="primary">Source Code</Button>
+
+                                    </Card.Text>
+                                    <Button href="https://rksd0923.github.io/Project-4/" target="_blank" variant="primary">See Live</Button>
+                                    <Button href="https://github.com/rksd0923/Project-4" target="_blank" variant="primary">Source Code</Button>
                                 </Card.Body>
                             </Card>
                         </Row>
@@ -277,8 +279,9 @@ const Projects = () => {
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
+                                                    <h4>Description</h4><p>API created to fetch countries information.  The app was deployed to Heroku.</p>
 
-                                                    Tech Used
+                                                    <h4>Tech used</h4>
                                                     <Container>
 
                                                         <Row>
@@ -306,11 +309,10 @@ const Projects = () => {
 
                                     </Accordion>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-    </Card.Text>
-                                    <Button href="https://github.com/rksd0923" target="_blank" variant="primary">See Live</Button>
-                                    <Button variant="primary">Source Code</Button>
+
+                                    </Card.Text>
+                                    <Button href="https://project-6-api.herokuapp.com/" target="_blank" variant="primary">See Live</Button>
+                                    <Button href="https://github.com/rksd0923/api-project-6" target="_blank" variant="primary">Source Code</Button>
                                 </Card.Body>
                             </Card>
                         </Row>
@@ -332,7 +334,10 @@ const Projects = () => {
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
 
-                                                    Tech Used
+                                                    <h4>Description</h4><p>App can be used to add contacts, user ca also upadate the information and also delete contacts as well.  It uses the CLI with Python.
+                                                </p>
+
+                                                    <h4>Tech used</h4>
                                                     <Container>
 
                                                         <Row>
@@ -360,11 +365,10 @@ const Projects = () => {
 
                                     </Accordion>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-    </Card.Text>
-                                    <Button href="https://github.com/rksd0923" target="_blank" variant="primary">See Live</Button>
-                                    <Button variant="primary">Source Code</Button>
+
+                                    </Card.Text>
+
+                                    <Button href="https://github.com/rksd0923/project-9" target="_blank" variant="primary">Source Code</Button>
 
                                 </Card.Body>
                             </Card>
@@ -387,7 +391,10 @@ const Projects = () => {
                                             <Accordion.Collapse eventKey="0">
                                                 <Card.Body>
 
-                                                    Tech Used
+                                                    <h4>Description</h4><p>Backend server done with Python Django.  The frontend was done with React.  It has authentication, Facebook plugin for comments.
+                                                </p>
+
+                                                    <h4>Tech used</h4>
                                                     <Container>
 
                                                         <Row>
@@ -415,11 +422,10 @@ const Projects = () => {
 
                                     </Accordion>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-    </Card.Text>
-                                    <Button href="https://github.com/rksd0923" target="_blank" variant="primary">See Live</Button>
-                                    <Button variant="primary">Source Code</Button>
+
+                                    </Card.Text>
+                                    <Button href="https://selectaxsiempre.net/" target="_blank" variant="primary">See Live</Button>
+                                    <Button href="https://github.com/rksd0923/selecta-frontend" target="_blank" variant="primary">Source Code</Button>
                                 </Card.Body>
                             </Card>
                         </Row>
